@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
 			while (!fileInput.eof()) {
 				string currentLine;
 				getline(fileInput, currentLine);
+				cout << currentLine << endl;
 				numLines++;
 				if (currentLine.length() > longestLine) {
 					longestLine = currentLine.length();
@@ -71,6 +72,7 @@ int main(int argc, char *argv[]) {
 			}
 		} while (!cin.eof());
 		numLines--;
+		cout << endl;
 	}
 	cout << endl << "Number of lines: " << numLines;
 	cout << endl << "Longest line: " << longestLine;
