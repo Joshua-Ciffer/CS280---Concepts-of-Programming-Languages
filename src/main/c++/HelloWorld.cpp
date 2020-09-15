@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
-	cout << "Hello World!" << endl;
-	return 0;
-}
+//int main(int argc, char *argv[]) {
+//	cout << "Hello World!" << endl;
+//	return 0;
+//}
