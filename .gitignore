@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
+/bin/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDE Files
+/.settings/
+/.project
 
-# Precompiled Headers
-*.gch
-*.pch
+# Java
+/.classpath
+*.class
+hs_err_pid*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Python
+/.pydevproject
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# C++
+/.cproject
 *.exe
-*.out
-*.app
+*.o
+/Debug/
